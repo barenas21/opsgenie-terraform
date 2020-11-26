@@ -1,6 +1,7 @@
 # Configure the Opsgenie Provider
+#TODO Set up api key as an environment variable
 provider "opsgenie" {
-  api_key = "c04b1ee8-0763-4f50-845d-0f444781e001"
+  api_key = "$OPSGENIE_API_KEY"
   api_url = "api.opsgenie.com" 
 }
 
